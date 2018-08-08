@@ -13,7 +13,7 @@ import br.com.caelum.livraria.modelo.Livro;
 public class LivroDao {
 	@PersistenceContext
 	private EntityManager manager;
-
+ 
 	public void salva(Livro livro) {
 		manager.persist(livro);
 	}
